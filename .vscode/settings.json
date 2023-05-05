@@ -1,0 +1,6 @@
+{
+	"prettier.configPath": "./.prettierrc.json",
+	"javascript.inlayHints.enumMemberValues.enabled": false,
+	"javascript.inlayHints.parameterTypes.enabled": true,
+	"javascript.inlayHints.propertyDeclarationTypes.enabled": true
+}

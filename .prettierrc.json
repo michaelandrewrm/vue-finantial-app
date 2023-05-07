@@ -9,6 +9,7 @@
 	"quoteProps": "consistent",
 	"jsxSingleQuote": true,
 	"bracketSpacing": true,
+	"bracketSameLine": false,
 	"arrowParens": "always",
 	"endOfLine": "lf",
 	"htmlWhitespaceSensitivity": "ignore"

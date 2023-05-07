@@ -1,0 +1,80 @@
+@import './base.css';
+@import './reset.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-primary: 0, 41, 65;
+		--color-primary-light: 50, 81, 108;
+		--color-primary-dark: 0, 13, 45;
+		--color-primary-details: 241, 245, 247;
+		--color-secondary: 233, 188, 127;
+		--color-secondary-light: 255, 221, 157;
+		--color-secondary-dark: 167, 127, 74;
+		--color-secondary-details: 255, 248, 235;
+		--color-surface: 249, 250, 252;
+		--color-surface-dark: 240, 241, 243;
+		--color-surface-light: 255, 255, 255;
+		--color-error: 229, 57, 53;
+		--color-success: 67, 160, 71;
+		--color-warning: 255, 255, 255;
+		--color-accent: 76, 120, 146;
+		--color-disabled: 225, 226, 228;
+		--text-color-on-primary: var(--color-surface-light);
+		--text-color-on-primary-light: var(--color-surface-light);
+		--text-color-on-primary-dark: var(--color-surface-light);
+		--text-color-on-primary-details: var(--color-primary);
+		--text-color-on-secondary: var(--color-primary);
+		--text-color-on-secondary-light: var(--color-primary);
+		--text-color-on-secondary-dark: var(--color-primary);
+		--text-color-on-secondary-details: var(--color-primary);
+		--text-color-on-surface: var(--color-primary);
+		--text-color-on-surface-dark: var(--color-primary);
+		--text-color-on-surface-light: var(--color-primary);
+		--text-color-on-error: var(--color-surface-light);
+		--text-color-on-success: var(--color-surface-light);
+		--text-color-on-warning: var(--color-primary);
+		--text-color-on-accent: var(--color-primary);
+		--text-color-on-disabled: var(--color-surface);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		:root {
+			--color-primary: 0, 41, 65;
+			--color-primary-light: 50, 81, 108;
+			--color-primary-dark: 0, 13, 45;
+			--color-primary-details: 241, 245, 247;
+			--color-secondary: 233, 188, 127;
+			--color-secondary-light: 255, 221, 157;
+			--color-secondary-dark: 167, 127, 74;
+			--color-secondary-details: 255, 248, 235;
+			--color-surface: 249, 250, 252;
+			--color-surface-dark: 240, 241, 243;
+			--color-surface-light: 255, 255, 255;
+			--color-error: 229, 57, 53;
+			--color-success: 67, 160, 71;
+			--color-warning: 255, 255, 255;
+			--color-accent: 76, 120, 146;
+			--color-disabled: 225, 226, 228;
+			--text-color-on-primary: var(--color-surface-light);
+			--text-color-on-primary-light: var(--color-surface-light);
+			--text-color-on-primary-dark: var(--color-surface-light);
+			--text-color-on-primary-details: var(--color-primary);
+			--text-color-on-secondary: var(--color-primary);
+			--text-color-on-secondary-light: var(--color-primary);
+			--text-color-on-secondary-dark: var(--color-primary);
+			--text-color-on-secondary-details: var(--color-primary);
+			--text-color-on-surface: var(--color-primary);
+			--text-color-on-surface-dark: var(--color-primary);
+			--text-color-on-surface-light: var(--color-primary);
+			--text-color-on-error: var(--color-surface-light);
+			--text-color-on-success: var(--color-surface-light);
+			--text-color-on-warning: var(--color-primary);
+			--text-color-on-accent: var(--color-primary);
+			--text-color-on-disabled: var(--color-surface);
+		}
+	}
+}

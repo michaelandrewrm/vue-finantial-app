@@ -23,22 +23,22 @@
 		--color-warning: 255, 255, 255;
 		--color-accent: 76, 120, 146;
 		--color-disabled: 225, 226, 228;
-		--text-color-on-primary: var(--color-surface-light);
-		--text-color-on-primary-light: var(--color-surface-light);
-		--text-color-on-primary-dark: var(--color-surface-light);
-		--text-color-on-primary-details: var(--color-primary);
-		--text-color-on-secondary: var(--color-primary);
-		--text-color-on-secondary-light: var(--color-primary);
-		--text-color-on-secondary-dark: var(--color-primary);
-		--text-color-on-secondary-details: var(--color-primary);
-		--text-color-on-surface: var(--color-primary);
-		--text-color-on-surface-dark: var(--color-primary);
-		--text-color-on-surface-light: var(--color-primary);
-		--text-color-on-error: var(--color-surface-light);
-		--text-color-on-success: var(--color-surface-light);
-		--text-color-on-warning: var(--color-primary);
-		--text-color-on-accent: var(--color-primary);
-		--text-color-on-disabled: var(--color-surface);
+		--color-on-primary: var(--color-surface-light);
+		--color-on-primary-light: var(--color-surface-light);
+		--color-on-primary-dark: var(--color-surface-light);
+		--color-on-primary-details: var(--color-primary);
+		--color-on-secondary: var(--color-primary);
+		--color-on-secondary-light: var(--color-primary);
+		--color-on-secondary-dark: var(--color-primary);
+		--color-on-secondary-details: var(--color-primary);
+		--color-on-surface: var(--color-primary);
+		--color-on-surface-dark: var(--color-primary);
+		--color-on-surface-light: var(--color-primary);
+		--color-on-error: var(--color-surface-light);
+		--color-on-success: var(--color-surface-light);
+		--color-on-warning: var(--color-primary);
+		--color-on-accent: var(--color-primary);
+		--color-on-disabled: var(--color-surface);
 	}
 
 	@media (prefers-color-scheme: dark) {
@@ -59,22 +59,22 @@
 			--color-warning: 255, 255, 255;
 			--color-accent: 76, 120, 146;
 			--color-disabled: 225, 226, 228;
-			--text-color-on-primary: var(--color-surface-light);
-			--text-color-on-primary-light: var(--color-surface-light);
-			--text-color-on-primary-dark: var(--color-surface-light);
-			--text-color-on-primary-details: var(--color-primary);
-			--text-color-on-secondary: var(--color-primary);
-			--text-color-on-secondary-light: var(--color-primary);
-			--text-color-on-secondary-dark: var(--color-primary);
-			--text-color-on-secondary-details: var(--color-primary);
-			--text-color-on-surface: var(--color-primary);
-			--text-color-on-surface-dark: var(--color-primary);
-			--text-color-on-surface-light: var(--color-primary);
-			--text-color-on-error: var(--color-surface-light);
-			--text-color-on-success: var(--color-surface-light);
-			--text-color-on-warning: var(--color-primary);
-			--text-color-on-accent: var(--color-primary);
-			--text-color-on-disabled: var(--color-surface);
+			--color-on-primary: var(--color-surface-light);
+			--color-on-primary-light: var(--color-surface-light);
+			--color-on-primary-dark: var(--color-surface-light);
+			--color-on-primary-details: var(--color-primary);
+			--color-on-secondary: var(--color-primary);
+			--color-on-secondary-light: var(--color-primary);
+			--color-on-secondary-dark: var(--color-primary);
+			--color-on-secondary-details: var(--color-primary);
+			--color-on-surface: var(--color-primary);
+			--color-on-surface-dark: var(--color-primary);
+			--color-on-surface-light: var(--color-primary);
+			--color-on-error: var(--color-surface-light);
+			--color-on-success: var(--color-surface-light);
+			--color-on-warning: var(--color-primary);
+			--color-on-accent: var(--color-primary);
+			--color-on-disabled: var(--color-surface);
 		}
 	}
 }
